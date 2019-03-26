@@ -144,6 +144,6 @@ from sklearn.model_selection import cross_val_score
 accuracies = cross_val_score(estimator= classifier,X=X_train,y=y_train,cv=10)
 accuracies.mean() #96.1%
 
-################## PREDICT NEW VALUES AFTER FITTING MODEL########################
+################## PREDICT NEW VALUES AFTER FITTING MODEL##########################
 y_p = classifier.predict([[5,2,3,4]])
 
